@@ -13,9 +13,9 @@ The problem we are trying to solve is to build a machine learning model to predi
 3. Datasets and Inputs
 
 We will be using the following three sets of data for feature extraction and modeling, including:
-1. Demographics data for the general population of Germany, which includes 891 211 persons (rows) and 366 features (columns).
-2. Demographics data for customers of a mail-order companym, which includes 191 652 persons (rows) and 369 features (columns).
-3. Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns). The last column is the label column, which provides information about who successfully were turned into customers, and who are not. 
+a. Demographics data for the general population of Germany, which includes 891 211 persons (rows) and 366 features (columns).
+b. Demographics data for customers of a mail-order companym, which includes 191 652 persons (rows) and 369 features (columns).
+c. Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns). The last column is the label column, which provides information about who successfully were turned into customers, and who are not. 
 The first two sets of data are useful for the understanding of the differences and key features between the company's customers and the general population. The third dataset will be split into train and test datasets, in order to train the model, and compute the accuracy ratio using the test data. 
 
 4. Solution Statement
